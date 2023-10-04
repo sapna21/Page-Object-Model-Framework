@@ -66,6 +66,8 @@ public class SearchTest extends Base{
 		Assert.assertEquals(actualSearchMessage, dataProp.getProperty("NoProductTextInSearchResults"),"No product message in search results is not displayed.");*/
 		
 	}
+	
+	//changes made on 10/04/2023
 
 	@Test(priority=3)
 	public void verifySearchWithoutAnyProduct() {
