@@ -75,7 +75,7 @@ public class SearchTest extends Base{
 		
 		//SearchPage searchPage = new SearchPage(driver);
 		String actualSearchMessage = searchPage.retrieveNoProductMessageText();
-		Assert.assertEquals(actualSearchMessage, prop.getProperty("NoProductTextInSearchResults"),"No product message in search results is not displayed.");
+		Assert.assertEquals(actualSearchMessage, dataProp.getProperty("NoProductTextInSearchResults"),"No product message in search results is not displayed.");
 		
 		/*driver.findElement(By.name("search")).sendKeys("");
 		driver.findElement(By.xpath("//button[contains(@class,'btn-default')]")).click();
