@@ -12,7 +12,7 @@ import com.tutorialsninja.qa.pages.AccountPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.LoginPage;
 import com.tutorialsninja.qa.utils.Utilities;
-//more comment added
+
 public class LoginTest extends Base{
 	LoginPage loginPage;
 	AccountPage accountPage;
