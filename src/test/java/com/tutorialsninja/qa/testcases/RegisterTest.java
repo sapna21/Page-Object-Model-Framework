@@ -12,7 +12,7 @@ import com.tutorialsninja.qa.pages.AccountSuccessPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.RegisterPage;
 import com.tutorialsninja.qa.utils.Utilities;
-
+//COMMENT ADDED
 public class RegisterTest extends Base{
 	RegisterPage registerPage;
 	AccountSuccessPage accountSuccessPage;
