@@ -30,7 +30,7 @@ public class LoginTest extends Base{
 		
 		HomePage homepage = new HomePage(driver);
 		loginPage = homepage.nevigateToLoginPage();
-		//as a lead i added somthing in logintest.java file
+		
 		
     	//driver.findElement(By.xpath("//span[text()='My Account']")).click();
     	//driver.findElement(By.linkText("Login")).click();
